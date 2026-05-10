@@ -1,0 +1,36 @@
+{
+  "name": "rfc3161-tsa-anchor",
+  "version": "0.1.0",
+  "description": "Dual-anchor RFC 3161 Time Stamping Authority client for Node.js with messageImprint verification and partial-anchor warning.",
+  "type": "module",
+  "main": "lib/tsa.js",
+  "exports": {
+    ".": "./lib/tsa.js"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "rfc3161",
+    "tsa",
+    "timestamping",
+    "time-stamping-authority",
+    "compliance",
+    "audit-trail",
+    "eidas",
+    "freetsa",
+    "swisssign"
+  ],
+  "author": "Wilhelmsson Labs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wilhelmsson424-jpg/rfc3161-tsa-anchor"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "node-forge": "^1.3.1"
+  }
+}
